@@ -1,0 +1,12 @@
+package com.railbook.api.exception;
+
+public class InvalidCredentialsException extends RuntimeException {
+
+    public InvalidCredentialsException() {
+        super("Invalid credentials");
+    }
+
+    public InvalidCredentialsException(String message) {
+        super(message);
+    }
+}
